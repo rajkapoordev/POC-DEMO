@@ -1,0 +1,37 @@
+.leftSidebar {
+    width: 256px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+}
+.leftSidebar .ant-menu {
+    height: 100%;
+}
+.leftSidebar .ant-menu .ant-menu-item, 
+.leftSidebar .ant-menu .ant-menu-submenu {
+    border-left: 5px solid transparent;
+}
+
+.leftSidebar .ant-menu .ant-menu-item:hover, 
+.leftSidebar .ant-menu .ant-menu-submenu:hover {
+    border-left: 5px solid #28b56f;
+    background: #f7f7f7;
+    color: #28b56f;
+}
+.leftSidebar .ant-menu .ant-menu-submenu .ant-menu-submenu-title:hover, 
+.leftSidebar .ant-menu .ant-menu-submenu .ant-menu-submenu-title .ant-menu-submenu-arrow:hover {
+    color: #28b56f;
+}
+.leftSidebar .ant-menu .ant-menu-submenu:hover ul li:hover {
+    border: none;
+    color: inherit;
+}
+
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+    color: #28b56f !important;
+}
+.leftSidebar .ant-menu-item-selected {
+    border-left: 5px solid #28b56f;
+    background: #f7f7f7;
+    color: #28b56f;
+}

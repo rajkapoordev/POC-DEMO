@@ -1,0 +1,16 @@
+/* Your styles goes here. */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #333;
+    background: #f5f5f5;
+    padding: 0 24px;
+    
+}
+.header .imgLogo img {
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+}
